@@ -42,7 +42,7 @@ body{
 }
 
 section{
-    padding: 80px 0px;
+    padding: 80px 0;
 }
 
 .box{
@@ -202,13 +202,10 @@ header{
     background-color: ghostwhite;
 }
 
-.steps-box{
-    margin-top: 30px;
-}
-
 .steps-box:first-child{
-   text-align: center;
+   text-align: right;
     padding-right: 3%;
+    margin-top: 30px;
 }
 
 .steps-box:last-child{
@@ -218,7 +215,7 @@ header{
 }
 
 .app-screen{
-    width:50%;
+    width:40%;
 }
 
 .works-step{
@@ -234,8 +231,8 @@ header{
     border: 2px solid darkorange;
     display: inline-block;
     border-radius: 50%;
-    height: 50px;
-    width: 50px;
+    height: 55px;
+    width: 55px;
     text-align: center;
     padding: 5px;
     float: left;
