@@ -97,14 +97,13 @@ body{
     }
 
     .app-screen{
-        width: 60%;
+        width: 50%;
     }
 
     .small-icons{
         width: 17px;
         margin-right: 5px;
     }
-
     .plan-box{
         width: 100%;
         margin-left: 0%;
