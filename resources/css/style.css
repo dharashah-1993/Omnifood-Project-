@@ -34,33 +34,26 @@ body{
 /*--------------------------------------------*/
 /* REUSABLE COMPONENTS  */
 /*--------------------------------------------*/
-
-
 .row{
     max-width: 1140px;
     margin: 0 auto;
 }
-
 section{
     padding: 80px 0;
 }
-
 .box{
     padding: 1%;
 }
-
 /*----------PARAGRAPHS--------------------*/
 .long-copy{
     line-height: 145%;
     width: 70%;
     margin-left: 15%;
 }
-
 .box p{
     font-size: 90%;
     line-height: 145%;
 }
-
 /*------------------ICONS---------------------*/
 .index-icon{
     font-size: 300%;
@@ -68,7 +61,6 @@ section{
     color: darkorange;
     margin-bottom: 10px;
 }
-
 
 .small-icons{
     display: inline-block;
@@ -105,7 +97,7 @@ a:active{
 /*--------------------------------------------*/
 
 header{
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("img/hero.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("img/hero-min.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -146,8 +138,6 @@ header{
 .main-nav li{
     display: inline-block;
     margin-left: 40px;
-
-
 }
 
 .main-nav li a:link,
@@ -164,6 +154,21 @@ header{
 .main-nav li a:hover,
 .main-nav li a:active{
     border-bottom: 1px solid darkorange;
+}
+
+
+/*----MOBILE NAVI--------*/
+
+.mobile-nav-icon{
+    float: right;
+    margin-top: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i{
+    font-size: 200%;
+    color: #fff;
 }
 
 /* Sticky navi */
@@ -309,7 +314,7 @@ header{
 
 /*-------------TESTIMONIALS-----------------------*/
 .section-testimonials{
-    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(img/back-customers.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(img/back-customers-min.jpg);
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
