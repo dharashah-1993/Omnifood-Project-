@@ -89,4 +89,21 @@ $(document).ready(function() {
             icon.removeClass('ion-close-round');
         }
     });
+
+    /*---Maps-----*/
+   var map= new GMaps({
+        div: '.map',
+        lat: 31.4323577,
+        lng: -100.5871215,
+        zoom:12
+    });
+
+    map.addMarker({
+        lat: 31.4323577,
+        lng: -100.5871215,
+        title: 'San Angelo',
+        infoWindow: {
+            content: '<p>Destined</p>'
+        }
+    });
 });
